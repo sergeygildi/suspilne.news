@@ -1,0 +1,6 @@
+rootProject.name = 'suspilne.news'
+include ':web', ':service', ':repository'
+
+//project(':services.repository').projectDir = file(new File(rootDir, "services.repository"))
+//project(':service').projectDir = file(new File(rootDir, "service"))
+//project(':web').projectDir = file(new File(rootDir, "web"))
